@@ -7,7 +7,6 @@ This file serves as the narrative backbone for the game. It defines various room
 
 ## Usage
 Room Definition:
-Syntax:
 ```
 room [roomName]
     description "[Room Description]"
