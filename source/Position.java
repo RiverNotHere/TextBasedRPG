@@ -1,36 +1,41 @@
 package source;
 
 public class Position {
-    class Point {
-        public int x;
-        public int y;
+    private Room currentRoom;
 
-        public Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        public String toString() {
-            return String.format("(%d, %d)", x, y);
-        }
+    public Position(Room startingRoom) {
+        this.currentRoom = startingRoom;
     }
 
-    private Point currentPosition;
-
-    public Position(int x, int y) {
-        currentPosition = new Point(x, y);
+    public Room getCurrentRoom() {
+        return currentRoom;
     }
 
-    public int getX() {
-        return currentPosition.x;
+    public void setCurrentRoom(Room newRoom) {
+        currentRoom = newRoom;
     }
 
-    public int getY() {
-        return currentPosition.y;
+    // Additional methods for movement and exploration
+    public void moveNorth() {
+        // Implement movement logic
     }
 
-    public boolean near(Position targetPos) {
-        
-        return false;
+    public void moveSouth() {
+        // Implement movement logic
     }
+
+    public void moveEast() {
+        // Implement movement logic
+    }
+
+    public void moveWest() {
+        // Implement movement logic
+    }
+
+    public void explore() {
+        // Implement exploration logic
+    }
+
+    // Additional methods as needed based on game requirements
 }
+

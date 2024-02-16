@@ -1,7 +1,7 @@
 # Customize Story using StoryScript
 
 ## Introduction
-Story Script File Extension: `.sc`
+Story Script File Extension: `.story`
 
 This file serves as the narrative backbone for the game. It defines various rooms, their descriptions, and possible player choices within those rooms. The script sets the stage for the game's plot and guides the player through different scenarios. Each room is associated with a unique identifier and contains a description and a set of options for the player to choose from.
 
