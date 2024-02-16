@@ -23,3 +23,8 @@ room start
     options
         go_inside "Enter the cave."
 ```
+
+Map Design:
+```
+[roomName] -> [connectedRooms...]
+```
