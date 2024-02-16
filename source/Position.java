@@ -35,7 +35,5 @@ public class Position {
     public void explore() {
         // Implement exploration logic
     }
-
-    // Additional methods as needed based on game requirements
 }
 
