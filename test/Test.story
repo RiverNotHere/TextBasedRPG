@@ -1,4 +1,7 @@
 # Demo Story
+display intro
+"You are on a mission conquering the mysterious cave for the first time"
+end intro
 
 # Map designs
 room start
@@ -36,6 +39,10 @@ room exit
     description "You see a faint light at the end of the tunnel. The exit is within reach."
     options
         exit "Exit the cave and complete your adventure."
+
+display ending
+""
+end ending
 
 # Map Connections
 map "test.map"
