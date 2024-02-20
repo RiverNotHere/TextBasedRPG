@@ -38,6 +38,8 @@ room exit
         exit "Exit the cave and complete your adventure."
 
 # Map Connections
+map "test.map"
+
 start
     enter -> main_hall
 main_hall
